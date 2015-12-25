@@ -5,7 +5,7 @@ import WBParser
 import WeiboLogin
 
 if __name__ =='__main__':
-    userName, passWord = 'huzhan8787@qq.com', 'HZ100200123';
+    userName, passWord = 'xxx@xxx.com', 'xxxxxx';
     ROILabel = ['oid', 'onick', 'sex'];
     weiboLogin = WeiboLogin.WeiboLogin(userName, passWord);
     if(weiboLogin.Login() == True):
